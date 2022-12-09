@@ -1,0 +1,34 @@
+/* Utils */
+.flex{
+    display: flex;
+}
+/* General */
+header{
+    background-color: #ff6900;
+    padding: 20px 0;
+}
+ul{
+    list-style: none;
+}
+/* Header */
+.container.flex{
+    justify-content: space-between ;
+    align-items: center;
+}
+.center-logo img{
+    height: 40px;
+    padding-right: 20px;
+}
+.left-header li{
+    display: inline-block;
+    padding-right: 10px;
+}
+.left-header li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+.right-header > i{
+    padding-left: 15px;
+    color: white;
+}
