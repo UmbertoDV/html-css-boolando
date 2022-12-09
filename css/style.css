@@ -6,6 +6,7 @@
 header{
     background-color: #ff6900;
     padding: 20px 0;
+    margin-bottom: 3rem;
 }
 ul{
     list-style: none;
@@ -31,4 +32,64 @@ ul{
 .right-header > i{
     padding-left: 15px;
     color: white;
+    cursor: pointer;
+}
+/* Main */
+.models-levis .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.models-levis:hover .img-top {
+    display: inline;
+}
+.line.flex{
+    justify-content: space-between ;
+    margin-top: 3rem;
+}
+.line.flex img{
+    height: 35rem;
+    border-radius: 10px;
+}
+.sales, .sost{
+    padding: 5px 10px;
+    color: white;
+}
+.sost{
+    background-color: green;
+}
+.sales{
+    background-color: red;
+    margin-right: 5px;
+}
+.models-levis{
+    position: relative;
+    display: inline-block;
+}
+.sales-section.flex{
+    position: absolute;
+    bottom: 100px;
+    z-index: 99;
+}
+.models-levis > i{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 99;
+}
+.models-levis > i:hover{
+    color: red;
+}
+.info > .name{
+    font-weight: bold;
+}
+.price > .red-price{
+    color: red;
+    font-weight: bold;
+}
+.price > .line-price{
+    text-decoration: line-through;
 }
