@@ -20,11 +20,13 @@ ul{
     height: 40px;
     padding-right: 20px;
 }
-.left-header li{
+.left-header li, 
+.left-footer li{
     display: inline-block;
     padding-right: 10px;
 }
-.left-header li > a{
+.left-header li > a, 
+.left-footer li > a{
     text-decoration: none;
     color: white;
     font-size: 1.1rem;
@@ -48,6 +50,7 @@ ul{
 .line.flex{
     justify-content: space-between ;
     margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 .line.flex img{
     height: 35rem;
@@ -92,4 +95,29 @@ ul{
 }
 .price > .line-price{
     text-decoration: line-through;
+}
+
+/* Footer */
+.main-footer{
+    background-color: #1b1b1b;
+    padding: 25px 0;
+}
+.left-footer li > a{
+    font-size: 1rem;
+}
+.title-footer{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+.desc-socials{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.15rem;
+}
+.social-icons{
+    font-size: 1.6rem;
+    color: white;
+    cursor: pointer;
 }
