@@ -5,13 +5,21 @@
 /* General */
 header{
     background-color: #ff6900;
-    padding: 20px 0;
-    margin-bottom: 3rem;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
 }
 ul{
     list-style: none;
 }
+main{
+    margin-top: 9rem;
+}
 /* Header */
+.entire-header{
+    padding: 20px 0;
+}
 .container.flex{
     justify-content: space-between ;
     align-items: center;
